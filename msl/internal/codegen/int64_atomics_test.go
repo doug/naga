@@ -229,6 +229,16 @@ var<workgroup> value: atomic<u64>;
 }
 `,
 		},
+		{
+			name:      "signed add",
+			operation: "add",
+			source: `
+@group(0) @binding(0) var<storage, read_write> value: atomic<i64>;
+@compute @workgroup_size(1) fn main() {
+    atomicAdd(&value, 1li);
+}
+`,
+		},
 	}
 
 	for _, test := range rejected {
