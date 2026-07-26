@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.17.16] - 2026-07-26
+
 ### Fixed (MSL)
 
 - **64-bit atomic capability validation** ([#79](https://github.com/gogpu/naga/issues/79), PR #82, @besmpl) —
