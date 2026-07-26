@@ -1095,8 +1095,19 @@ func (w *Writer) writeSwizzle(swizzle ir.ExprSwizzle) error {
 			w.write("%sfloat3(", Namespace)
 		}
 	}
+	// Wrap in parens if vector is a binary/select expression.
+	// C++ member access (.) binds tighter than arithmetic operators,
+	// so (mat * vec).xyz must not be emitted as mat * vec.xyz.
+	// Matches Rust naga is_scoped=false in put_expression → put_binop.
+	needParens := !needsUnpack && w.needsParensInContext(swizzle.Vector)
+	if needParens {
+		w.write("(")
+	}
 	if err := w.writeExpression(swizzle.Vector); err != nil {
 		return err
+	}
+	if needParens {
+		w.write(")")
 	}
 	if needsUnpack {
 		w.write(")")

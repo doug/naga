@@ -9,12 +9,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed (MSL)
 
-- **64-bit atomic capability validation** ([#79](https://github.com/gogpu/naga/issues/79)) —
+- **64-bit atomic capability validation** ([#79](https://github.com/gogpu/naga/issues/79), PR #82, @besmpl) —
   `msl.Compile` now returns a descriptive error for 64-bit atomic operations
   that Metal cannot represent instead of emitting invalid intrinsics. Matching
   Rust Naga, result-discarded `min`/`max` in storage address space remain
   supported; loads, stores, full operations, result-producing min/max, and
   workgroup min/max are rejected.
+- **MSL: swizzle of binary expression missing parentheses** ([#83](https://github.com/gogpu/naga/issues/83)) —
+  `writeSwizzle` now wraps binary/select sub-expressions in parentheses,
+  matching Rust naga's `is_scoped=false` semantics. Without this, C++ member
+  access (`.`) bound tighter than arithmetic operators, causing
+  `mat * vec.xyz` instead of `(mat * vec).xyz` — a type error that Metal
+  compiler rejected. Discovered via g3d `standard.wgsl` shader on Apple M5.
 
 ## [0.17.15] - 2026-06-15
 

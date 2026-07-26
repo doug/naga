@@ -25,5 +25,5 @@ fragment fs_mainOutput fs_main(
     metal::float2 val_0_ = uint(_e9) < 2 ? my_array.inner[_e9] : DefaultConstructible();
     int _e11 = index_0_;
     metal::float2 val_1_ = uint(_e11) < 2 ? my_array.inner[_e11] : DefaultConstructible();
-    return fs_mainOutput { val_0_ * val_1_.xxyy };
+    return fs_mainOutput { (val_0_ * val_1_).xxyy };
 }
