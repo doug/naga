@@ -9,8 +9,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gogpu/naga/internal/textutil"
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/internal/textutil"
+	"github.com/doug/naga/ir"
 )
 
 // nameKey identifies an IR entity for name lookup.

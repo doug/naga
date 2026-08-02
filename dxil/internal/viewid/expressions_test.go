@@ -3,7 +3,7 @@ package viewid
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // TestCopyAllAsUnion verifies that copyAllAsUnion collapses all components

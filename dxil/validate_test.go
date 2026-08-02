@@ -6,7 +6,7 @@ package dxil
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // TestValidate_LdexpScalarStructural is the blob-level regression gate

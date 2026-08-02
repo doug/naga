@@ -22,12 +22,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gogpu/naga/glsl"
-	"github.com/gogpu/naga/hlsl"
-	"github.com/gogpu/naga/ir"
-	"github.com/gogpu/naga/msl"
-	"github.com/gogpu/naga/spirv"
-	"github.com/gogpu/naga/wgsl"
+	"github.com/doug/naga/glsl"
+	"github.com/doug/naga/hlsl"
+	"github.com/doug/naga/ir"
+	"github.com/doug/naga/msl"
+	"github.com/doug/naga/spirv"
+	"github.com/doug/naga/wgsl"
 )
 
 // ---------------------------------------------------------------------------

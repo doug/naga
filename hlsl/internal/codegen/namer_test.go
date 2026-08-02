@@ -6,7 +6,7 @@ package codegen
 import (
 	"testing"
 
-	"github.com/gogpu/naga/internal/backend"
+	"github.com/doug/naga/internal/backend"
 )
 
 func TestNamer_Call(t *testing.T) {

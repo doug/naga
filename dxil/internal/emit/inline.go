@@ -6,8 +6,8 @@ package emit
 import (
 	"fmt"
 
-	"github.com/gogpu/naga/dxil/internal/module"
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/dxil/internal/module"
+	"github.com/doug/naga/ir"
 )
 
 // canInlineCallee returns true when emitStmtCallInline can safely expand the

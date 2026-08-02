@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // HLSL type constants for expressions.

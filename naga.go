@@ -36,9 +36,9 @@ package naga
 import (
 	"fmt"
 
-	"github.com/gogpu/naga/ir"
-	"github.com/gogpu/naga/spirv"
-	"github.com/gogpu/naga/wgsl"
+	"github.com/doug/naga/ir"
+	"github.com/doug/naga/spirv"
+	"github.com/doug/naga/wgsl"
 )
 
 // CompileOptions configures shader compilation.

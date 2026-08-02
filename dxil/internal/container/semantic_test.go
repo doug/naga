@@ -3,7 +3,7 @@ package container
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 func TestMapBuiltinToSemantic(t *testing.T) {

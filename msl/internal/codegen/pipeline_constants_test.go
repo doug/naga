@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 func TestMapValueToScalar(t *testing.T) {

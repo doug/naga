@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gogpu/naga/internal/registry"
-	"github.com/gogpu/naga/ir"
-	"github.com/gogpu/naga/wgsl/internal/parser"
+	"github.com/doug/naga/internal/registry"
+	"github.com/doug/naga/ir"
+	"github.com/doug/naga/wgsl/internal/parser"
 )
 
 // Warning represents a compiler warning (not an error).

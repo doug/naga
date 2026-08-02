@@ -3,8 +3,8 @@ package lower
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
-	"github.com/gogpu/naga/wgsl/internal/parser"
+	"github.com/doug/naga/ir"
+	"github.com/doug/naga/wgsl/internal/parser"
 )
 
 // parseWGSL is a helper to parse WGSL source code

@@ -3,7 +3,7 @@ package mem2reg
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // scalarTypeHandle appends a scalar type to mod.Types and returns its handle.

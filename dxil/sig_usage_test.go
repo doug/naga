@@ -3,7 +3,7 @@ package dxil
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // helper to make a minimal Module with types.

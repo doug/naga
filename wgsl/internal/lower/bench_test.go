@@ -1,7 +1,7 @@
 package lower
 
 import (
-	"github.com/gogpu/naga/wgsl/internal/parser"
+	"github.com/doug/naga/wgsl/internal/parser"
 	"runtime"
 	"strings"
 	"testing"

@@ -3,9 +3,9 @@ package snapshot_test
 import (
 	"fmt"
 
-	"github.com/gogpu/naga/ir"
-	"github.com/gogpu/naga/spirv"
-	"github.com/gogpu/naga/wgsl"
+	"github.com/doug/naga/ir"
+	"github.com/doug/naga/spirv"
+	"github.com/doug/naga/wgsl"
 )
 
 // parseWGSL tokenizes and parses WGSL source, returning the AST or an error.

@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // HLSL semantic constants.

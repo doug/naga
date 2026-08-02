@@ -3,7 +3,7 @@ package emit
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // TestComputeExprUseCount verifies that expression use counts are computed

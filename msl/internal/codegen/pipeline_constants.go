@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // applyPipelineConstants creates a copy of the module with override values

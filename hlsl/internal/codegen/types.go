@@ -8,8 +8,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/gogpu/naga/internal/backend"
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/internal/backend"
+	"github.com/doug/naga/ir"
 )
 
 // Type name constants.

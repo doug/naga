@@ -3,8 +3,8 @@ package codegen
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
-	"github.com/gogpu/naga/wgsl"
+	"github.com/doug/naga/ir"
+	"github.com/doug/naga/wgsl"
 )
 
 // ---------------------------------------------------------------------------

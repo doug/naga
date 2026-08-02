@@ -6,7 +6,7 @@ package codegen
 import (
 	"fmt"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // isExternalTexture checks if a type is an external texture image.

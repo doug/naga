@@ -4,7 +4,7 @@
 package codegen
 
 import (
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // reachableSet tracks which IR entities are reachable from a specific entry point.

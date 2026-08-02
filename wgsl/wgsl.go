@@ -1,9 +1,9 @@
 package wgsl
 
 import (
-	"github.com/gogpu/naga/ir"
-	"github.com/gogpu/naga/wgsl/internal/lower"
-	"github.com/gogpu/naga/wgsl/internal/parser"
+	"github.com/doug/naga/ir"
+	"github.com/doug/naga/wgsl/internal/lower"
+	"github.com/doug/naga/wgsl/internal/parser"
 )
 
 // Module represents a parsed WGSL module (abstract syntax tree).

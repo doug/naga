@@ -4,7 +4,7 @@
 package codegen
 
 import (
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // Features represents required GLSL features as bitflags.

@@ -3,7 +3,7 @@ package emit
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // TestIsArgRead_UnusedArgument verifies that isArgRead returns false for

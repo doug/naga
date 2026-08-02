@@ -6,8 +6,8 @@ package emit
 import (
 	"testing"
 
-	"github.com/gogpu/naga/dxil/internal/module"
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/dxil/internal/module"
+	"github.com/doug/naga/ir"
 )
 
 // TestCBVStructTypeMat4x4 verifies that a bare mat4x4<f32> uniform produces

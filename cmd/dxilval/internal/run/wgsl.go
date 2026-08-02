@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/gogpu/naga/internal/dxcvalidator"
+	"github.com/doug/naga/internal/dxcvalidator"
 )
 
 // runWGSL compiles a WGSL file through naga, then validates each emitted

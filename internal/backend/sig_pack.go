@@ -1,6 +1,6 @@
 package backend
 
-import "github.com/gogpu/naga/ir"
+import "github.com/doug/naga/ir"
 
 // PackedElement is the per-element register layout produced by
 // PackSignatureElements. Together with the shared SortedMemberIndices order

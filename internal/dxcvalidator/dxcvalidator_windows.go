@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/gogpu/naga/internal/dxcvalidator/bitcheck"
+	"github.com/doug/naga/internal/dxcvalidator/bitcheck"
 )
 
 // --- COM GUIDs ---

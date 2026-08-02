@@ -1,8 +1,8 @@
 package viewid
 
 import (
-	"github.com/gogpu/naga/internal/backend"
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/internal/backend"
+	"github.com/doug/naga/ir"
 )
 
 // walkBlock recursively walks a statement block, updating local variable

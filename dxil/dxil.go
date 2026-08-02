@@ -23,15 +23,15 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/gogpu/naga/dxil/internal/container"
-	"github.com/gogpu/naga/dxil/internal/emit"
-	"github.com/gogpu/naga/dxil/internal/module"
-	"github.com/gogpu/naga/dxil/internal/passes/dce"
-	"github.com/gogpu/naga/dxil/internal/passes/mem2reg"
-	"github.com/gogpu/naga/dxil/internal/passes/sroa"
-	"github.com/gogpu/naga/dxil/internal/viewid"
-	"github.com/gogpu/naga/internal/backend"
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/dxil/internal/container"
+	"github.com/doug/naga/dxil/internal/emit"
+	"github.com/doug/naga/dxil/internal/module"
+	"github.com/doug/naga/dxil/internal/passes/dce"
+	"github.com/doug/naga/dxil/internal/passes/mem2reg"
+	"github.com/doug/naga/dxil/internal/passes/sroa"
+	"github.com/doug/naga/dxil/internal/viewid"
+	"github.com/doug/naga/internal/backend"
+	"github.com/doug/naga/ir"
 )
 
 // ShaderModel represents a DXIL shader model version.

@@ -3,7 +3,7 @@ package module
 import (
 	"math"
 
-	"github.com/gogpu/naga/dxil/internal/bitcode"
+	"github.com/doug/naga/dxil/internal/bitcode"
 )
 
 // uid converts a non-negative int (ID or index) to uint64.

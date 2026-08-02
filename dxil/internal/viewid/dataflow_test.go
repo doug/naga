@@ -3,7 +3,7 @@ package viewid
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // Helper: make a module with scalar f32, vec3 f32, vec4 f32 types.

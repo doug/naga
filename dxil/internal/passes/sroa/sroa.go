@@ -27,7 +27,7 @@
 package sroa
 
 import (
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // Run performs SROA on fn, decomposing eligible struct locals into

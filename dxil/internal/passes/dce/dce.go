@@ -31,7 +31,7 @@
 package dce
 
 import (
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // Run eliminates dead code from fn. It must be called AFTER mem2reg

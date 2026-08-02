@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/gogpu/naga/internal/dxcvalidator"
+	"github.com/doug/naga/internal/dxcvalidator"
 )
 
 // runSingle validates a pre-built DXIL container.

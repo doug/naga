@@ -3,7 +3,7 @@ package registry
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 func TestTypeRegistry_ScalarDeduplication(t *testing.T) {

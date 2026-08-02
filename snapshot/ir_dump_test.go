@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gogpu/naga/ir"
-	"github.com/gogpu/naga/wgsl"
+	"github.com/doug/naga/ir"
+	"github.com/doug/naga/wgsl"
 )
 
 // TestIRDump parses ALL WGSL shaders in testdata/in/ and dumps the resulting

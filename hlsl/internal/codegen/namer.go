@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gogpu/naga/internal/backend"
+	"github.com/doug/naga/internal/backend"
 )
 
 // namer generates unique identifiers for HLSL output.

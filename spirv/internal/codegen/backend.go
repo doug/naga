@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // entryPointInput describes how an entry point input argument is structured.

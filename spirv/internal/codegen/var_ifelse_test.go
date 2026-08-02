@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gogpu/naga/wgsl"
+	"github.com/doug/naga/wgsl"
 )
 
 // Shader A: BROKEN — uses var + if/else to assign result, then reads it after merge.

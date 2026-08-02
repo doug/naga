@@ -1,3 +1,3 @@
-module github.com/gogpu/naga
+module github.com/doug/naga
 
 go 1.25

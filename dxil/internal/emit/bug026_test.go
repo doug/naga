@@ -3,8 +3,8 @@ package emit
 import (
 	"testing"
 
-	"github.com/gogpu/naga/dxil/internal/module"
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/dxil/internal/module"
+	"github.com/doug/naga/ir"
 )
 
 // Unit tests for BUG-DXIL-026 helpers.

@@ -6,9 +6,9 @@ package hlsl
 import (
 	"fmt"
 
-	"github.com/gogpu/naga/hlsl/internal/codegen"
-	"github.com/gogpu/naga/internal/backend"
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/hlsl/internal/codegen"
+	"github.com/doug/naga/internal/backend"
+	"github.com/doug/naga/ir"
 )
 
 // --- Configuration types ---

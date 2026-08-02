@@ -3,7 +3,7 @@ package viewid
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // TestScalarSet exercises scalarSet basic operations (add, addAll, copy, union).

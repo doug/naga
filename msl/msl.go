@@ -6,8 +6,8 @@ package msl
 import (
 	"fmt"
 
-	"github.com/gogpu/naga/ir"
-	"github.com/gogpu/naga/msl/internal/codegen"
+	"github.com/doug/naga/ir"
+	"github.com/doug/naga/msl/internal/codegen"
 )
 
 // Version represents an MSL language version.

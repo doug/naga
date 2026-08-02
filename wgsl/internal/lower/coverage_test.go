@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gogpu/naga/ir"
-	"github.com/gogpu/naga/wgsl/internal/parser"
+	"github.com/doug/naga/ir"
+	"github.com/doug/naga/wgsl/internal/parser"
 )
 
 // -----------------------------------------------------------------------

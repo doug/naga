@@ -6,7 +6,7 @@ package codegen
 import (
 	"fmt"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // HLSL type name constants.

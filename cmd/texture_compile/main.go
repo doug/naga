@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gogpu/naga"
-	"github.com/gogpu/naga/spirv"
+	"github.com/doug/naga"
+	"github.com/doug/naga/spirv"
 )
 
 const textureShader = `

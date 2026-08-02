@@ -5,8 +5,8 @@
 package spirv
 
 import (
-	"github.com/gogpu/naga/ir"
-	"github.com/gogpu/naga/spirv/internal/codegen"
+	"github.com/doug/naga/ir"
+	"github.com/doug/naga/spirv/internal/codegen"
 )
 
 // --- Configuration types (real types, not aliases) ---

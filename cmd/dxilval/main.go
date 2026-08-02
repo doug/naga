@@ -13,7 +13,7 @@ package main
 import (
 	"os"
 
-	"github.com/gogpu/naga/cmd/dxilval/internal/run"
+	"github.com/doug/naga/cmd/dxilval/internal/run"
 )
 
 func main() {

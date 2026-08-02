@@ -6,8 +6,8 @@ package glsl
 import (
 	"fmt"
 
-	"github.com/gogpu/naga/glsl/internal/codegen"
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/glsl/internal/codegen"
+	"github.com/doug/naga/ir"
 )
 
 // Version represents a GLSL version.

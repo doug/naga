@@ -1,7 +1,7 @@
 package mem2reg
 
 import (
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // promotionContext bundles the per-function state needed by the

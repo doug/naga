@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gogpu/naga/hlsl"
-	"github.com/gogpu/naga/ir"
-	"github.com/gogpu/naga/wgsl"
+	"github.com/doug/naga/hlsl"
+	"github.com/doug/naga/ir"
+	"github.com/doug/naga/wgsl"
 )
 
 // compileWGSLToHLSL is a test helper that compiles WGSL source to HLSL.

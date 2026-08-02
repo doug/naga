@@ -36,7 +36,7 @@
 package viewid
 
 import (
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // Deps holds the computed dependency information for a graphics entry

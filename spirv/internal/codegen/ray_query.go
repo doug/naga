@@ -3,7 +3,7 @@ package codegen
 import (
 	"fmt"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // rayQueryFuncKind identifies the type of ray query helper function.

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // hasDecorateInBinary checks if any OpDecorate instruction targets the given ID with the given decoration.

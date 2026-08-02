@@ -3,7 +3,7 @@ package naga
 import (
 	"testing"
 
-	"github.com/gogpu/naga/spirv"
+	"github.com/doug/naga/spirv"
 )
 
 // TestCompileSimpleVertexShader tests compilation of a basic vertex shader.

@@ -8,8 +8,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gogpu/naga/internal/dxcvalidator"
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/internal/dxcvalidator"
+	"github.com/doug/naga/ir"
 )
 
 // Outcome kind constants for corpus validation results.

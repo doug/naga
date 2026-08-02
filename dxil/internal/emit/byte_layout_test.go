@@ -3,7 +3,7 @@ package emit
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // Unit tests for byte-layout helpers (elemByteSize, matrixColumnByteStride).

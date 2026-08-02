@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gogpu/naga/wgsl"
+	"github.com/doug/naga/wgsl"
 )
 
 func compileWGSLForInt64AtomicPolicy(t *testing.T, source string) (string, error) {

@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gogpu/naga/dxil"
+	"github.com/doug/naga/dxil"
 )
 
 // loadHLSLBindingMap reads the sibling .toml of a .wgsl path and returns

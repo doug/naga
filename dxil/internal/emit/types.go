@@ -3,8 +3,8 @@ package emit
 import (
 	"fmt"
 
-	"github.com/gogpu/naga/dxil/internal/module"
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/dxil/internal/module"
+	"github.com/doug/naga/ir"
 )
 
 // scalarToDXIL maps a naga ScalarType to a DXIL type.

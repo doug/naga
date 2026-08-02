@@ -3,7 +3,7 @@ package viewid
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // TestWalkStatementTypes exercises walkStatement for statement types that

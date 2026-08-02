@@ -9,8 +9,8 @@ package container
 import (
 	"fmt"
 
-	"github.com/gogpu/naga/internal/backend"
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/internal/backend"
+	"github.com/doug/naga/ir"
 )
 
 // DXIL system-value semantic name constants.

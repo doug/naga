@@ -3,7 +3,7 @@ package backend
 import (
 	"sort"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // EntryInterfaceOrder ranks an entry-point struct member's binding for

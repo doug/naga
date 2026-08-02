@@ -3,8 +3,8 @@ package spirv_test
 import (
 	"fmt"
 
-	"github.com/gogpu/naga/ir"
-	"github.com/gogpu/naga/spirv"
+	"github.com/doug/naga/ir"
+	"github.com/doug/naga/spirv"
 )
 
 // Example_backendCompile demonstrates compiling an IR module to SPIR-V.

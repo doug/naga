@@ -3,7 +3,7 @@ package sroa
 import (
 	"testing"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // ---------------------------------------------------------------------------

@@ -5,8 +5,8 @@ package codegen
 import (
 	"testing"
 
-	"github.com/gogpu/naga"
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga"
+	"github.com/doug/naga/ir"
 )
 
 func TestMSLCompilesWithXcrun(t *testing.T) {

@@ -4,10 +4,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/gogpu/naga/glsl"
-	"github.com/gogpu/naga/hlsl"
-	"github.com/gogpu/naga/msl"
-	"github.com/gogpu/naga/spirv"
+	"github.com/doug/naga/glsl"
+	"github.com/doug/naga/hlsl"
+	"github.com/doug/naga/msl"
+	"github.com/doug/naga/spirv"
 )
 
 // ---------------------------------------------------------------------------

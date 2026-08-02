@@ -3,9 +3,9 @@ package emit
 import (
 	"fmt"
 
-	"github.com/gogpu/naga/dxil/internal/module"
-	"github.com/gogpu/naga/internal/backend"
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/dxil/internal/module"
+	"github.com/doug/naga/internal/backend"
+	"github.com/doug/naga/ir"
 )
 
 // emitFunctionBody emits the statements in the function body.

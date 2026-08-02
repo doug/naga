@@ -3,7 +3,7 @@ package codegen
 import (
 	"fmt"
 
-	"github.com/gogpu/naga/ir"
+	"github.com/doug/naga/ir"
 )
 
 // Version represents an MSL language version.

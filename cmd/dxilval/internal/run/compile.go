@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gogpu/naga/dxil"
-	"github.com/gogpu/naga/ir"
-	"github.com/gogpu/naga/wgsl"
+	"github.com/doug/naga/dxil"
+	"github.com/doug/naga/ir"
+	"github.com/doug/naga/wgsl"
 )
 
 // compileWGSL parses a .wgsl file and emits one DXIL blob per entry point.
